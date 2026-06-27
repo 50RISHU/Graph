@@ -1,75 +1,31 @@
-# React + TypeScript + Vite
+# 📊 Grapher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+<img src="/public/favicon.svg" alt="logo">
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+[![React](https://img.shields.io/badge/React-18.0-blue?style=flat-square&logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-5.0-purple?style=flat-square&logo=vite)](https://vitejs.dev)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Description
 
-## React Compiler
+Grapher is a powerful, interactive web-based graphing calculator built with React and TypeScript. Visualize mathematical equations in real-time with an intuitive interface that combines traditional input methods with a dynamic math keyboard for seamless equation entry.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- 📈 **Real-time Graph Visualization** - See your equations plotted instantly on an interactive canvas
+- ⌨️ **Smart Math Keyboard** - Dedicated keyboard for mathematical symbols and operations
+- 🔢 **Flexible Input** - Enter equations using traditional keyboard or the math keyboard
+- 🎨 **Interactive Canvas** - Zoom, pan, and explore graphs with smooth interactions
+- 💡 **Example Chips** - Quick access to common equation examples for learning
+- 🌓 **Mode Toggle** - Switch between light and dark themes
+- ⚡ **Fast Performance** - Built with Vite for optimal development and production performance
+- 🎯 **Type-Safe** - Fully typed with TypeScript for reliability
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## License
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+This project is licensed under the MIT License - see the LICENSE file for details.
