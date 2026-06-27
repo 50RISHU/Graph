@@ -1,14 +1,24 @@
 # 📊 Grapher
 
 <p align="center">
-<img src="/public/favicon.svg" alt="logo">
+<img src="/public/favicon.svg" alt="logo" width="200">
 </p>
 
+<h1 align="center">-- Grapher --</h1>
+
 <p align="center">
-[![React](https://img.shields.io/badge/React-18.0-blue?style=flat-square&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
-[![Vite](https://img.shields.io/badge/Vite-5.0-purple?style=flat-square&logo=vite)](https://vitejs.dev)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+  <a href="https://react.dev">
+    <img src="https://img.shields.io/badge/React-18.0-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React">
+  </a>
+  <a href="https://www.typescriptlang.org">
+    <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  </a>
+  <a href="https://vitejs.dev">
+    <img src="https://img.shields.io/badge/Vite-5.0-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  </a>
 </p>
 
 ## Description
